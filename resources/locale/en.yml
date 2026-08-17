@@ -1,0 +1,16 @@
+# Flarum translation keys for the Chatixy extension.
+#
+# The top-level namespace must be the extension id Flarum derives from the
+# composer name "chatixy/flarum-chatixy" -> "chatixy-chatixy" (see extend.php).
+# Loaded by `new Extend\Locales(__DIR__.'/resources/locale')`.
+
+chatixy-chatixy:
+  admin:
+    settings:
+      enabled_label: Show the Chatixy chat widget on the forum
+      enabled_help: Turn this off to hide the widget without disabling the extension.
+      widget_key_label: Chatixy widget key
+      widget_key_help: >-
+        The 64-character key from your Chatixy dashboard (Install tab). Pasting
+        the whole embed snippet works too - only the key is used. Leave blank to
+        keep the widget off.
