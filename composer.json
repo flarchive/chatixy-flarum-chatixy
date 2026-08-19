@@ -1,0 +1,46 @@
+{
+    "name": "chatixy/flarum-chatixy",
+    "description": "Chatixy AI support agent for Flarum - no-code forum install.",
+    "type": "flarum-extension",
+    "license": "MIT",
+    "keywords": [
+        "chatixy",
+        "chat",
+        "ai-chat",
+        "live-chat",
+        "widget",
+        "customer-support",
+        "flarum",
+        "flarum-extension"
+    ],
+    "homepage": "https://chatixy.com/integrations/flarum",
+    "authors": [
+        {
+            "name": "Chatixy",
+            "homepage": "https://chatixy.com"
+        }
+    ],
+    "support": {
+        "email": "support@chatixy.com",
+        "issues": "https://chatixy.com/support"
+    },
+    "require": {
+        "flarum/core": "^1.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Chatixy\\Flarum\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Chatixy AI Support Agent",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-comments",
+                "backgroundColor": "#4f46e5",
+                "color": "#fff"
+            }
+        }
+    }
+}
